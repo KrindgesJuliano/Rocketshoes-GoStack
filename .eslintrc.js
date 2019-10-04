@@ -22,7 +22,8 @@ module.exports = {
   },
   plugins: [
     'react',
-    'prettier'
+    'prettier',
+    'react-hooks'
   ],
   rules: {
     'prettier/prettier': 'error',
@@ -31,7 +32,9 @@ module.exports = {
       {extensions:['.jsx', 'js'] }
     ],
     'import/prefer-default-export': 'off',
-    "react/state-in-constructor": 0,
-    'no-console': ["error", {allow: ["tron"]}]
+    'no-param-reassing' : 'off',
+    'no-console': ["error", {allow: ["tron"]}],
+    'react-hooks/rules-of-hooks': 'error',
+    'react-hooks/exhaustive-deps': 'warn'
   },
 };
