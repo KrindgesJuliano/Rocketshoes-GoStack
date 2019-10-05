@@ -22,7 +22,7 @@ para rodar a API basta usar o seguinte comando:
 yarn json-server server.json -p 3333
 ```
 
-#Build With
+## Build With
 
 * ReactJS
 * Redux
